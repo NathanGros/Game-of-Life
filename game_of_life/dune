@@ -1,0 +1,7 @@
+(executable
+    (name game_of_life)
+    (libraries graphics))
+(env
+  (dev
+    (flags (:standard -w -26 -w -32 -w -27 -w -37))))
+
